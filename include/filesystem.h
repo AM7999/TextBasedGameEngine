@@ -1,6 +1,8 @@
 #ifndef TEXTBASEDGAMEENG_FILESYSTEM_H
 #define TEXTBASEDGAMEENG_FILESYSTEM_H
 
+//
+
 void FILE_NEW(std::string filename);
 void FILE_DELETE(std::string filename);
 void FILE_CLEAR(std::string filename);
