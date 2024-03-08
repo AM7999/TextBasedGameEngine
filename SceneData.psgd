@@ -1,0 +1,64 @@
+// Games Name is absoluteness required here though the description is optional
+// SceneList is required so your game actually loads all the scenes
+Game.Name=Test
+Game.Desc=Test
+SceneList=2
+Game.SaveData.Name=testSav.save
+
+// Simple initializers if you wanted to use the inventory or dialog function
+Init.Inventory=true
+Init.Dialogue=true
+// Assigning keys for interaction and the inventory (if the inventory is enabled)
+Init.Inventory.Key=i
+Init.Interact.Key='\r'
+
+// Entity Color definitions
+Color.Entity.NPC=
+Color.Entity.Enemy=
+Color.Entity.Item=
+Color.Entity.Player=
+
+// Definitions on what type of char represents a type of entity
+// This will be shown on the Loading screen of your game
+Char.Entity.NPC.Definition=1
+Char.Entity.Enemy.Definition=9
+Char.Entity.Item.Definition=7
+Char.Entity.Player.Definition=0
+
+// Scenes and their information MUST BE CONTAINED IN A SCOPE
+Scene.1 {
+  // Some parameters to set when creating a scene
+  Board.Color=
+  Board.Char=#
+  Board.Width=10
+  Board.Height=10
+  Actors.Items.List=2
+  Actors.Players.List=1
+  Actors.Enemies.List=0
+
+  // Items will have an X and Y position as defined in this scope
+  Item.0.Pos {
+    Actor.Item.0.PosX=1
+    Actor.Item.0.PosY=1
+  }
+
+  Item.1.Pos {
+    Actor.Item.1.PosX=2
+    Actor.Item.1.PosY=2
+  }
+  
+}
+
+Scene.2 {
+  Board.Color=
+  Board.Char=#
+  Board.Width=10
+  Board.Height=10
+  Actors.Items.List=0
+  Actors.Players.List=1
+  Actors.NPCs.List=1
+
+  NPC.1.Pos {
+  
+  }
+}
