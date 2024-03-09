@@ -1,5 +1,0 @@
-C:/Users/AMart/CLionProjects/TextBasedGameEng/cmake-build-debug/CMakeFiles/Engine.dir
-C:/Users/AMart/CLionProjects/TextBasedGameEng/cmake-build-debug/CMakeFiles/SceneCreation.dir
-C:/Users/AMart/CLionProjects/TextBasedGameEng/cmake-build-debug/CMakeFiles/base64.dir
-C:/Users/AMart/CLionProjects/TextBasedGameEng/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/AMart/CLionProjects/TextBasedGameEng/cmake-build-debug/CMakeFiles/rebuild_cache.dir
